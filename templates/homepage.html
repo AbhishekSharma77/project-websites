@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page - CodroidHub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .navbar {
+            background-color: #007BFF;
+            overflow: hidden;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 20px;
+        }
+        .navbar a {
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #0056b3;
+            color: white;
+        }
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+        .dropdown .dropbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .theme-section {
+            background-image: url('your-theme-background.jpg');
+            background-size: cover;
+            background-position: center;
+            color: brown;
+            text-align: center;
+            padding: 60px 20px;
+        }
+        .theme-section h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+        .theme-section p {
+            font-size: 24px;
+            margin: 10px 0 0;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        .content img {
+            width: 80%;
+            max-width: 800px;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="dropdown">
+            <button class="dropbtn">About Developer 
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="https://github.com/AbhishekSharma77">Github Profile</a>
+                <a href="https://linkedin.com/in/abhishek5310" target="_blank">LinkedIn Profile</a>
+            </div>
+        </div> 
+        <a href="#">About CodroidHub</a>
+        <a href="#">SmartPredict</a>
+        <a href="#">QualiBot</a>
+        <a href="#">VisionGuard</a>
+    </div>
+
+    <div class="theme-section">
+        <h1> Welcome to my Journey with AI and ML</h1>
+        <p>Hey! I am Abhishek Sharma :)</p>
+    </div>
+
+    <div class="content">
+        <h1> Optimizing Quality Control in Smart Manufacturing Using AI</h1>
+        <p>Transforming Manufacturing Excellence: Leveraging AI to Enhance Quality Control, Predictive Maintenance, and Visual Inspection</p>
+       <img src="https://mitsloan.mit.edu/sites/default/files/styles/og_image/public/2023-06/ai-manufacturing.jpg?h=7691f918&amp;itok=F0fheaHA" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 1200px; height: 183px; margin: 1px 0px; width: 351px;" alt="For AI in manufacturing, start with data | MIT Sloan" jsname="kn3ccd" aria-hidden="false">
+    <div>
+        <button onclick="window.location.href='/main'">
+        Welcome
+        </button>
+	</div>
+
+   </div>
+
+    <footer>
+        <a href="mailto:contact@codroidhub.com">Contact Us</a> | 
+        <a href="https://github.com/CodroidHub" target="_blank">Github</a>
+    </footer>
+
+</body>
+</html>
